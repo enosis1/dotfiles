@@ -3,13 +3,12 @@ return {
 	lazy = false,
 	name = "catppuccin",
 	priority = 1000,
-	flavour = "mocha",
 	config = function()
 		require("catppuccin").setup({
 			integrations = {
 				neotree = true,
 			},
 		})
-		vim.cmd.colorscheme("catppuccin")
+		vim.cmd.colorscheme("catppuccin-frappe")
 	end,
 }
