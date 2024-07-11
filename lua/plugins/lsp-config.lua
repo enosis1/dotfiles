@@ -33,6 +33,9 @@ return {
       lspconfig.pyright.setup({
         capabilities = capabilities,
       })
+      lspconfig.ruff_lsp.setup({
+        capabilities = capabilities,
+      })
       lspconfig.emmet_ls.setup({
         capabilities = capabilities,
       })
