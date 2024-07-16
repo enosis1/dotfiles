@@ -6,7 +6,7 @@ return {
 	config = function()
 		require("catppuccin").setup({
 			integrations = {
-				neotree = true,
+				neotree = false,
 			},
 		})
 		vim.cmd.colorscheme("catppuccin-frappe")
