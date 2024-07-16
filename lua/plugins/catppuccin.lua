@@ -4,11 +4,7 @@ return {
 	name = "catppuccin",
 	priority = 1000,
 	config = function()
-		require("catppuccin").setup({
-			integrations = {
-				neotree = false,
-			},
-		})
+		require("catppuccin").setup({})
 		vim.cmd.colorscheme("catppuccin-frappe")
 	end,
 }
