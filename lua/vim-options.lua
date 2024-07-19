@@ -2,7 +2,7 @@ vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
-vim.cmd("set spell") -- Builtin nvim spellcheck
+vim.cmd(":setlocal spell spelllang=en_us") -- Builtin nvim spellcheck
 
 vim.g.mapleader = " "
 
