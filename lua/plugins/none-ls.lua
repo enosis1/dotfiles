@@ -9,8 +9,6 @@ return {
         null_ls.builtins.formatting.prettier,
         null_ls.builtins.formatting.black,
         null_ls.builtins.formatting.isort,
-        null_ls.builtins.diagnostics.misspell, --null_ls.builtins.diagnostics.mypy,
-        --diagnostics
       },
     })
     vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
